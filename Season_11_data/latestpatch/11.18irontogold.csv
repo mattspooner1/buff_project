@@ -1,0 +1,228 @@
+champ,role,winrate,rank,banrate,pickrate,change
+Aatrox,TOP,49.17,irontogold,2.66,3.75,buff
+Ahri,MID,50,irontogold,1.86,5.5,no change
+Akali,MID,47.4,irontogold,10.9,6.05,buff
+Akali,TOP,46.52,irontogold,10.9,2.26,buff
+Akshan,MID,51.7,irontogold,27.04,5.31,no change
+Akshan,ADC,49.24,irontogold,27.04,2.55,no change
+Alistar,SUPPORT,49.57,irontogold,1.38,4.2,no change
+Amumu,JUNGLE,54.57,irontogold,12.1,9.36,no change
+Amumu,SUPPORT,52.33,irontogold,12.1,2.44,no change
+Anivia,MID,51.61,irontogold,3.18,3.26,no change
+Anivia,SUPPORT,47.1,irontogold,3.18,0.56,no change
+Annie,MID,50.62,irontogold,1.39,2.85,no change
+Aphelios,ADC,47.89,irontogold,2.32,5.01,no change
+Ashe,ADC,50.86,irontogold,6,14.13,no change
+Aurelion Sol,MID,49.48,irontogold,0.22,0.56,no change
+Azir,MID,45.61,irontogold,0.31,1.36,no change
+Bard,SUPPORT,47.62,irontogold,0.37,1.98,no change
+Blitzcrank,SUPPORT,52.4,irontogold,17.34,8,no change
+Brand,SUPPORT,51.58,irontogold,10.61,6.78,no change
+Brand,MID,51.34,irontogold,10.61,1.14,no change
+Braum,SUPPORT,49.79,irontogold,0.52,3.15,no change
+Caitlyn,ADC,48.56,irontogold,9.02,14.26,no change
+Camille,TOP,49.51,irontogold,6.75,5.66,no change
+Cassiopeia,MID,49.61,irontogold,1.57,2.09,no change
+Cassiopeia,TOP,50.37,irontogold,1.57,0.41,no change
+Cassiopeia,ADC,48.42,irontogold,1.57,0.33,no change
+Cho'Gath,TOP,49.44,irontogold,1.21,2.61,no change
+Cho'Gath,MID,50.06,irontogold,1.21,0.4,no change
+Corki,MID,52.31,irontogold,0.31,1.29,no change
+Darius,TOP,47.1,irontogold,18.94,6.82,no change
+Diana,JUNGLE,50.19,irontogold,8.81,5.75,no change
+Diana,MID,50.85,irontogold,8.81,3.57,no change
+Dr. Mundo,TOP,52.05,irontogold,5.24,4.7,no change
+Dr. Mundo,JUNGLE,52.39,irontogold,5.24,0.76,no change
+Draven,ADC,49.19,irontogold,8.44,6.27,no change
+Ekko,JUNGLE,51.16,irontogold,7.44,7.65,no change
+Ekko,MID,49.79,irontogold,7.44,3.44,no change
+Elise,JUNGLE,48.39,irontogold,1.98,1.71,no change
+Evelynn,JUNGLE,49.05,irontogold,5.88,4.16,no change
+Ezreal,ADC,47.99,irontogold,7.43,19.14,no change
+Fiddlesticks,JUNGLE,50.96,irontogold,3.76,4.26,no change
+Fiora,TOP,50.9,irontogold,10.23,6.31,no change
+Fizz,MID,48.2,irontogold,8.32,5.14,tweak
+Galio,MID,50.26,irontogold,0.88,2.38,buff
+Galio,SUPPORT,48.2,irontogold,0.88,1.74,buff
+Gangplank,TOP,45.67,irontogold,1.8,3.85,no change
+Gangplank,MID,46.92,irontogold,1.8,1.06,no change
+Garen,TOP,50.88,irontogold,4.24,7.77,no change
+Gnar,TOP,48.72,irontogold,1.41,3.54,no change
+Gragas,MID,49.82,irontogold,0.16,0.21,no change
+Gragas,JUNGLE,46.39,irontogold,0.16,1.22,no change
+Gragas,TOP,47.02,irontogold,0.16,0.33,no change
+Gragas,SUPPORT,47.76,irontogold,0.16,0.26,no change
+Graves,JUNGLE,50.21,irontogold,5.54,6.41,no change
+Graves,MID,53.89,irontogold,5.54,2.08,no change
+Gwen,JUNGLE,48.36,irontogold,3.68,0.4,buff
+Gwen,TOP,45.1,irontogold,3.68,2.62,buff
+Hecarim,JUNGLE,48.06,irontogold,1.8,3.36,no change
+Heimerdinger,MID,51.66,irontogold,1.54,1.19,no change
+Heimerdinger,TOP,50.49,irontogold,1.54,1.02,no change
+Illaoi,TOP,50.1,irontogold,6.63,3.36,no change
+Irelia,TOP,50.93,irontogold,38.23,7.53,no change
+Irelia,MID,51.78,irontogold,38.23,6.75,no change
+Ivern,JUNGLE,46.22,irontogold,0.35,0.78,no change
+Janna,SUPPORT,49.78,irontogold,0.16,2.5,no change
+Jarvan IV,JUNGLE,51.71,irontogold,5.8,7.47,no change
+Jax,TOP,50.41,irontogold,5.15,5.63,no change
+Jax,JUNGLE,50.11,irontogold,5.15,2.12,no change
+Jayce,MID,47.49,irontogold,0.72,0.74,no change
+Jayce,TOP,46.09,irontogold,0.72,2.34,no change
+Jhin,ADC,50.85,irontogold,6.01,17.63,no change
+Jinx,ADC,49.31,irontogold,1.17,9.33,no change
+Kai'Sa,ADC,48.77,irontogold,2.56,12.03,no change
+Kalista,ADC,46.87,irontogold,0.39,1.85,no change
+Karma,SUPPORT,47.06,irontogold,0.84,4.77,no change
+Karthus,JUNGLE,49.12,irontogold,0.61,1.47,no change
+Karthus,MID,48.37,irontogold,0.61,0.3,no change
+Kassadin,MID,49.52,irontogold,3.64,3.3,no change
+Katarina,MID,49.01,irontogold,16.33,9.31,no change
+Kayle,MID,53.82,irontogold,1.37,1.22,no change
+Kayle,TOP,51.04,irontogold,1.37,4.06,no change
+Kayn,JUNGLE,49.27,irontogold,10.38,12.43,no change
+Kennen,MID,51.05,irontogold,0.86,0.61,nerf
+Kennen,TOP,48.82,irontogold,0.86,2.69,nerf
+Kha'Zix,JUNGLE,49.42,irontogold,8.9,8.47,no change
+Kindred,JUNGLE,49.01,irontogold,1.83,3.65,no change
+Kled,MID,54.6,irontogold,1.18,0.24,no change
+Kled,TOP,50.91,irontogold,1.18,1.79,no change
+Kog'Maw,MID,48.55,irontogold,0.7,0.45,no change
+Kog'Maw,ADC,50.56,irontogold,0.7,2.26,no change
+LeBlanc,MID,48.32,irontogold,9.34,6,no change
+Lee Sin,JUNGLE,47.27,irontogold,17.75,13.02,no change
+Leona,SUPPORT,49.71,irontogold,20.9,9.79,no change
+Lillia,JUNGLE,51.94,irontogold,2.3,3.91,no change
+Lillia,TOP,53.36,irontogold,2.3,1.91,no change
+Lissandra,MID,49.24,irontogold,0.83,2.32,no change
+Lucian,ADC,47.63,irontogold,2.92,10.27,no change
+Lucian,MID,44.8,irontogold,2.92,2.2,no change
+Lulu,SUPPORT,49.3,irontogold,15.36,9.35,no change
+Lux,SUPPORT,49.66,irontogold,7.6,13.93,no change
+Lux,MID,50.79,irontogold,7.6,4.76,no change
+Malphite,TOP,50.92,irontogold,4.95,5.02,no change
+Malphite,MID,50.68,irontogold,4.95,1.28,no change
+Malphite,SUPPORT,48.63,irontogold,4.95,1.6,no change
+Malzahar,MID,51.7,irontogold,5.26,4.02,no change
+Maokai,SUPPORT,52.39,irontogold,0.31,1.82,no change
+Maokai,TOP,47.01,irontogold,0.31,0.43,no change
+Master Yi,JUNGLE,52.22,irontogold,27.21,11.03,no change
+Miss Fortune,ADC,51.93,irontogold,2.3,14.85,no change
+Mordekaiser,TOP,50.81,irontogold,13.71,9.11,buff
+Mordekaiser,JUNGLE,52.41,irontogold,13.71,1.15,buff
+Morgana,SUPPORT,50.41,irontogold,38.26,12.38,no change
+Nami,SUPPORT,51.9,irontogold,0.39,5.76,no change
+Nasus,TOP,51.61,irontogold,6.99,6.55,no change
+Nautilus,SUPPORT,49.78,irontogold,9.49,8.03,no change
+Neeko,MID,50.41,irontogold,0.56,1.9,no change
+Neeko,SUPPORT,47.01,irontogold,0.56,0.77,no change
+Nidalee,JUNGLE,46.03,irontogold,1.12,3.19,no change
+Nocturne,JUNGLE,51.01,irontogold,8.11,6.05,no change
+Nunu,JUNGLE,49.96,irontogold,0.98,3.27,no change
+Olaf,JUNGLE,47.16,irontogold,1.41,1.71,no change
+Olaf,TOP,45.95,irontogold,1.41,0.3,no change
+Orianna,MID,46.91,irontogold,0.28,2.63,no change
+Ornn,TOP,51.26,irontogold,0.66,3,no change
+Pantheon,MID,50.01,irontogold,3.8,2.86,no change
+Pantheon,TOP,48.75,irontogold,3.8,0.85,no change
+Pantheon,SUPPORT,46.74,irontogold,3.8,2.78,no change
+Poppy,JUNGLE,49.37,irontogold,0.58,1.66,buff
+Poppy,TOP,48.11,irontogold,0.58,0.89,buff
+Poppy,SUPPORT,49.57,irontogold,0.58,0.29,buff
+Pyke,SUPPORT,48.76,irontogold,15.81,8.86,no change
+Qiyana,MID,47.06,irontogold,1.79,2.84,no change
+Qiyana,JUNGLE,40.79,irontogold,1.79,1.14,no change
+Quinn,MID,50.62,irontogold,1.03,0.2,no change
+Quinn,TOP,49.8,irontogold,1.03,1.63,no change
+Rakan,SUPPORT,49.53,irontogold,0.27,3.71,no change
+Rammus,JUNGLE,49.82,irontogold,4.38,2.58,no change
+Rek'Sai,JUNGLE,47.54,irontogold,0.54,1.32,no change
+Rell,SUPPORT,51.27,irontogold,0.81,1.88,no change
+Renekton,MID,47.14,irontogold,2.29,0.53,buff
+Renekton,TOP,44.1,irontogold,2.29,2.95,buff
+Rengar,TOP,48.25,irontogold,1.44,0.78,no change
+Rengar,JUNGLE,45.3,irontogold,1.44,2.76,no change
+Riven,TOP,49.66,irontogold,1.7,4.58,no change
+Rumble,MID,53.58,irontogold,0.24,0.47,no change
+Rumble,TOP,47.98,irontogold,0.24,0.5,no change
+Rumble,JUNGLE,44.94,irontogold,0.24,0.78,no change
+Ryze,MID,46.19,irontogold,0.71,4.62,nerf
+Ryze,TOP,46.4,irontogold,0.71,1.14,nerf
+Samira,ADC,48.96,irontogold,29.64,10,no change
+Sejuani,JUNGLE,50.1,irontogold,0.22,1.6,buff
+Senna,SUPPORT,48.45,irontogold,4.5,7.88,no change
+Senna,ADC,50.36,irontogold,4.5,1.16,no change
+Seraphine,SUPPORT,48.92,irontogold,1.9,5.02,buff
+Sett,TOP,51.23,irontogold,18.24,12.42,no change
+Sett,SUPPORT,46.28,irontogold,18.24,1.73,no change
+Shaco,JUNGLE,49.78,irontogold,23.66,7.03,no change
+Shaco,SUPPORT,50.1,irontogold,23.66,1.7,no change
+Shen,TOP,51.38,irontogold,1.37,4.44,no change
+Shen,SUPPORT,49.55,irontogold,1.37,0.58,no change
+Shyvana,JUNGLE,50.89,irontogold,0.55,2.43,no change
+Singed,TOP,50.96,irontogold,0.36,2,no change
+Sion,TOP,49.18,irontogold,0.34,2.79,buff
+Sivir,ADC,50.6,irontogold,1.01,4.06,no change
+Skarner,JUNGLE,51.63,irontogold,0.14,0.72,no change
+Sona,SUPPORT,52.31,irontogold,0.57,4.6,nerf
+Soraka,SUPPORT,53.44,irontogold,3.46,8.11,nerf
+Swain,SUPPORT,50.99,irontogold,5.02,4.68,no change
+Sylas,MID,48.06,irontogold,6.68,6.67,buff
+Sylas,TOP,46.61,irontogold,6.68,2.38,buff
+Syndra,MID,47.52,irontogold,0.88,2.97,no change
+Tahm Kench,TOP,50.73,irontogold,15.8,5.25,no change
+Taliyah,SUPPORT,52.86,irontogold,0.28,0.22,no change
+Taliyah,MID,48.8,irontogold,0.28,0.52,no change
+Taliyah,JUNGLE,48.79,irontogold,0.28,1.09,no change
+Talon,MID,48.23,irontogold,3.83,3.49,no change
+Talon,JUNGLE,47.84,irontogold,3.83,2.34,no change
+Taric,SUPPORT,49.99,irontogold,0.18,1.21,no change
+Teemo,TOP,50.58,irontogold,7.79,7.11,no change
+Thresh,SUPPORT,47.02,irontogold,5.16,10.41,no change
+Tristana,ADC,49.24,irontogold,8.82,11.07,no change
+Trundle,JUNGLE,52.29,irontogold,3.26,3.95,no change
+Trundle,TOP,51.05,irontogold,3.26,2.3,no change
+Tryndamere,TOP,48.61,irontogold,6.3,4.63,no change
+Tryndamere,MID,51.4,irontogold,6.3,1.33,no change
+Twisted Fate,MID,45.79,irontogold,0.19,3.03,no change
+Twitch,ADC,50.83,irontogold,2.63,5.73,no change
+Twitch,JUNGLE,44.48,irontogold,2.63,0.77,no change
+Udyr,JUNGLE,47.94,irontogold,0.54,1.37,no change
+Urgot,TOP,52.29,irontogold,3.57,4.8,no change
+Varus,ADC,47.16,irontogold,0.67,4.29,nerf
+Vayne,ADC,51.55,irontogold,16.62,14.03,no change
+Vayne,TOP,49.84,irontogold,16.62,2.21,no change
+Veigar,MID,50.27,irontogold,2.05,4.76,no change
+Veigar,SUPPORT,49.75,irontogold,2.05,1.27,no change
+Vel'Koz,MID,51.17,irontogold,0.89,1.14,no change
+Vel'Koz,SUPPORT,50.3,irontogold,0.89,2.5,no change
+Vi,JUNGLE,50.79,irontogold,0.92,3.7,no change
+Viego,JUNGLE,48.63,irontogold,16.1,9.3,no change
+Viktor,MID,50.99,irontogold,0.42,2.31,no change
+Vladimir,MID,49.77,irontogold,3.7,3.27,no change
+Vladimir,TOP,48.07,irontogold,3.7,0.96,no change
+Volibear,JUNGLE,49.69,irontogold,2.88,3.65,no change
+Volibear,TOP,49.31,irontogold,2.88,3,no change
+Warwick,JUNGLE,50.63,irontogold,5.03,6.95,no change
+Warwick,TOP,48.59,irontogold,5.03,1.01,no change
+Wukong,TOP,50.47,irontogold,1.39,2.68,no change
+Wukong,JUNGLE,49.45,irontogold,1.39,0.58,no change
+Xayah,ADC,48.57,irontogold,0.74,5.1,no change
+Xerath,SUPPORT,50.91,irontogold,6.57,4.83,no change
+Xerath,MID,49.08,irontogold,6.57,2.31,no change
+Xin Zhao,JUNGLE,50.55,irontogold,7.61,6.55,no change
+Yasuo,MID,51.74,irontogold,30.61,14.97,no change
+Yasuo,TOP,50.43,irontogold,30.61,2.84,no change
+Yasuo,ADC,52.09,irontogold,30.61,2.23,no change
+Yone,MID,51.56,irontogold,18.69,11.97,no change
+Yone,TOP,50.17,irontogold,18.69,3.53,no change
+Yorick,TOP,53.12,irontogold,3.34,3.76,no change
+Yuumi,SUPPORT,49.46,irontogold,12.16,9.42,no change
+Zac,JUNGLE,51.38,irontogold,1.73,3.65,no change
+Zed,MID,48.59,irontogold,47.92,11.27,no change
+Zed,JUNGLE,45.43,irontogold,47.92,2.41,no change
+Ziggs,ADC,52.47,irontogold,4.2,3.66,no change
+Ziggs,MID,49.61,irontogold,4.2,1.37,no change
+Zilean,SUPPORT,50.11,irontogold,0.67,2.44,no change
+Zoe,MID,45.96,irontogold,0.96,2.83,no change
+Zyra,SUPPORT,51.37,irontogold,4.15,5.56,no change

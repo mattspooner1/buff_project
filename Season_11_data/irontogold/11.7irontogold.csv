@@ -1,0 +1,221 @@
+champ,role,winrate,banrate,pickrate,change
+Aatrox,TOP,46.94,3.62,4.23,no change
+Ahri,MID,50.13,2.27,6.07,no change
+Akali,MID,48.55,14.04,9.37,no change
+Akali,TOP,48.83,14.04,2.92,no change
+Alistar,SUPPORT,50.29,3.29,6.93,no change
+Amumu,JUNGLE,54.31,1.66,4.92,no change
+Anivia,MID,51.49,5.04,2.92,no change
+Anivia,SUPPORT,47.89,5.04,0.41,no change
+Annie,MID,53.13,1.7,3.02,nerf
+Aphelios,ADC,45.91,1.08,2.67,buff
+Ashe,ADC,50.66,1.84,9.52,no change
+Aurelion Sol,MID,48.34,0.2,0.63,no change
+Azir,MID,43.64,0.22,1.31,no change
+Bard,SUPPORT,50.53,0.48,3.22,no change
+Blitzcrank,SUPPORT,49.95,15.61,7.83,no change
+Brand,SUPPORT,52.57,10.41,5.96,no change
+Brand,MID,53.01,10.41,1.4,no change
+Braum,SUPPORT,49.95,0.54,3.19,no change
+Caitlyn,ADC,49.01,10.61,14.76,no change
+Camille,TOP,49.31,3.45,4.26,no change
+Cassiopeia,MID,48.56,1.07,1.65,buff
+Cassiopeia,TOP,50.32,1.07,0.31,buff
+Cho'Gath,TOP,52.44,3.39,5.22,no change
+Cho'Gath,MID,52.36,3.39,0.89,no change
+Corki,MID,52.14,0.32,1.55,no change
+Darius,TOP,49.02,36.4,8.08,buff
+Diana,MID,52.54,5.8,5.58,buff
+Dr. Mundo,JUNGLE,54.02,4.87,5.53,no change
+Dr. Mundo,TOP,50.15,4.87,0.89,no change
+Draven,ADC,48.26,3.84,3.61,no change
+Ekko,MID,50.38,4.39,3.63,no change
+Ekko,JUNGLE,50.0,4.39,4.69,no change
+Elise,JUNGLE,50.0,6.37,4.02,no change
+Evelynn,JUNGLE,49.12,6.23,4.37,no change
+Ezreal,ADC,47.28,4.39,17.8,no change
+Fiddlesticks,JUNGLE,51.01,2.07,3.54,no change
+Fiora,TOP,49.02,7.69,5.61,no change
+Fizz,MID,50.97,15.12,5.07,no change
+Galio,MID,52.14,1.97,3.44,no change
+Galio,SUPPORT,50.87,1.97,1.78,no change
+Gangplank,TOP,45.16,1.11,2.94,no change
+Gangplank,MID,46.94,1.11,0.54,no change
+Garen,TOP,51.82,7.68,9.26,no change
+Gnar,TOP,49.2,8.5,6.62,buff
+Gragas,JUNGLE,48.18,0.65,2.21,no change
+Gragas,TOP,46.21,0.65,1.32,no change
+Gragas,SUPPORT,45.96,0.65,0.62,no change
+Graves,JUNGLE,47.3,2.77,4.98,no change
+Hecarim,JUNGLE,51.57,35.64,11.26,no change
+Heimerdinger,MID,52.4,1.63,1.22,no change
+Heimerdinger,TOP,49.67,1.63,1.02,no change
+Illaoi,TOP,49.24,7.52,3.0,no change
+Irelia,TOP,45.56,13.28,6.1,no change
+Irelia,MID,45.85,13.28,4.29,no change
+Ivern,JUNGLE,50.34,0.39,1.07,no change
+Janna,SUPPORT,50.33,0.2,2.92,no change
+Jarvan IV,JUNGLE,49.62,0.28,2.52,no change
+Jax,TOP,49.91,5.85,4.56,no change
+Jax,JUNGLE,49.27,5.85,3.42,no change
+Jayce,MID,48.95,0.68,0.75,no change
+Jayce,TOP,47.13,0.68,2.27,no change
+Jhin,ADC,51.06,8.13,14.94,no change
+Jinx,ADC,51.0,5.17,17.1,no change
+Kai'Sa,ADC,49.38,16.99,20.97,no change
+Kalista,TOP,45.2,0.54,0.34,no change
+Kalista,ADC,46.34,0.54,1.55,no change
+Karma,SUPPORT,48.1,0.42,4.04,no change
+Karthus,MID,49.81,1.35,0.22,no change
+Karthus,JUNGLE,49.26,1.35,1.71,no change
+Kassadin,MID,49.07,6.59,3.18,no change
+Katarina,MID,50.53,14.22,9.05,no change
+Kayle,MID,51.26,0.45,0.35,no change
+Kayle,TOP,49.58,0.45,2.39,no change
+Kayn,JUNGLE,49.22,10.75,11.57,no change
+Kennen,MID,51.75,0.28,0.35,no change
+Kennen,TOP,48.95,0.28,1.36,no change
+Kha'Zix,JUNGLE,48.97,9.6,8.14,no change
+Kindred,JUNGLE,47.03,0.83,3.48,no change
+Kled,MID,54.13,0.94,0.27,no change
+Kled,TOP,50.65,0.94,1.52,no change
+Kog'Maw,ADC,50.51,0.17,1.3,no change
+LeBlanc,MID,47.09,3.38,3.0,buff
+Lee Sin,JUNGLE,47.33,5.51,11.27,buff
+Leona,SUPPORT,50.96,25.44,11.38,no change
+Lillia,JUNGLE,45.66,1.58,3.75,no change
+Lissandra,MID,50.2,0.44,1.85,no change
+Lucian,MID,45.39,3.5,3.2,no change
+Lucian,ADC,46.7,3.5,7.44,no change
+Lulu,SUPPORT,50.21,8.47,10.61,no change
+Lux,SUPPORT,49.61,6.32,13.13,no change
+Lux,MID,51.13,6.32,5.58,no change
+Malphite,TOP,51.96,10.63,6.42,no change
+Malphite,MID,51.77,10.63,1.37,no change
+Malphite,SUPPORT,48.53,10.63,1.68,no change
+Malzahar,MID,53.05,4.88,3.95,no change
+Maokai,TOP,52.58,0.55,0.82,no change
+Maokai,SUPPORT,51.44,0.55,2.16,no change
+Master Yi,JUNGLE,50.84,24.27,10.84,no change
+Miss Fortune,ADC,50.63,2.35,11.01,no change
+Mordekaiser,TOP,51.33,10.12,8.36,buff
+Mordekaiser,MID,54.78,10.12,1.08,buff
+Morgana,SUPPORT,50.4,39.07,12.02,buff
+Nami,SUPPORT,50.93,0.22,4.34,no change
+Nasus,TOP,52.12,7.04,7.39,no change
+Nautilus,SUPPORT,49.84,9.52,7.97,no change
+Neeko,MID,51.02,1.15,2.73,no change
+Neeko,SUPPORT,48.03,1.15,0.97,no change
+Nidalee,JUNGLE,44.77,0.81,3.48,no change
+Nocturne,JUNGLE,51.01,5.63,6.94,no change
+Olaf,JUNGLE,47.37,3.56,2.8,no change
+Olaf,TOP,44.79,3.56,0.33,no change
+Orianna,MID,47.12,0.53,3.84,nerf
+Ornn,TOP,52.52,1.06,3.66,no change
+Pantheon,MID,50.63,6.73,3.03,no change
+Pantheon,TOP,48.01,6.73,1.05,no change
+Pantheon,SUPPORT,45.77,6.73,2.93,no change
+Poppy,JUNGLE,50.4,1.18,2.21,no change
+Poppy,TOP,49.02,1.18,1.64,no change
+Pyke,SUPPORT,47.32,12.46,7.4,no change
+Qiyana,MID,46.06,1.29,3.63,no change
+Quinn,MID,51.47,1.6,0.29,no change
+Quinn,TOP,49.4,1.6,1.78,no change
+Rakan,SUPPORT,48.79,0.24,3.44,no change
+Rammus,JUNGLE,52.6,8.76,4.25,tweak
+Rammus,JUNGLE,52.6,8.76,4.25,tweak
+Rek'Sai,JUNGLE,47.73,0.64,1.62,no change
+Rell,SUPPORT,49.04,6.52,3.33,no change
+Renekton,TOP,46.16,6.3,4.98,no change
+Renekton,MID,49.28,6.3,0.98,no change
+Rengar,TOP,47.85,1.78,0.75,no change
+Rengar,JUNGLE,45.15,1.78,2.84,no change
+Riven,TOP,48.62,1.43,4.49,no change
+Riven,MID,51.96,1.43,0.71,no change
+Rumble,MID,51.61,0.26,0.74,tweak
+Rumble,TOP,46.18,0.26,1.07,tweak
+Ryze,MID,44.53,0.33,2.48,no change
+Ryze,TOP,44.28,0.33,0.98,no change
+Samira,ADC,50.2,23.81,11.82,no change
+Sejuani,JUNGLE,50.83,0.27,2.18,no change
+Senna,SUPPORT,48.57,12.6,11.07,no change
+Senna,ADC,50.24,12.6,2.97,no change
+Seraphine,SUPPORT,50.09,10.86,7.58,no change
+Seraphine,MID,51.99,10.86,1.05,no change
+Sett,TOP,48.86,5.79,6.57,tweak
+Sett,MID,51.67,5.79,1.14,tweak
+Sett,SUPPORT,46.34,5.79,1.9,tweak
+Shaco,JUNGLE,50.3,23.53,8.26,no change
+Shaco,SUPPORT,50.99,23.53,1.85,no change
+Shen,TOP,50.17,1.62,4.59,no change
+Shen,SUPPORT,47.48,1.62,0.6,no change
+Shyvana,JUNGLE,49.93,0.38,2.21,no change
+Singed,TOP,50.62,0.23,1.23,no change
+Sion,TOP,52.09,0.45,3.14,no change
+Sivir,ADC,51.54,3.39,6.34,no change
+Skarner,JUNGLE,53.08,0.57,1.65,no change
+Sona,SUPPORT,51.79,0.11,2.1,no change
+Soraka,SUPPORT,50.04,0.54,3.82,no change
+Swain,MID,54.65,6.93,0.88,no change
+Swain,SUPPORT,52.18,6.93,5.07,no change
+Sylas,MID,48.46,5.31,7.58,no change
+Sylas,TOP,48.59,5.31,2.73,no change
+Syndra,MID,46.96,0.86,2.36,no change
+Tahm Kench,ADC,51.31,0.34,0.21,no change
+Tahm Kench,TOP,47.65,0.34,0.98,no change
+Tahm Kench,SUPPORT,43.95,0.34,0.37,no change
+Taliyah,SUPPORT,50.09,0.11,0.09,no change
+Taliyah,JUNGLE,46.99,0.11,0.77,no change
+Taliyah,MID,43.65,0.11,0.11,no change
+Talon,MID,47.94,3.8,4.57,no change
+Taric,SUPPORT,51.8,0.13,1.07,no change
+Teemo,TOP,51.09,8.81,6.13,no change
+Thresh,SUPPORT,49.01,9.26,13.81,nerf
+Tristana,ADC,50.34,17.83,15.14,no change
+Trundle,JUNGLE,50.62,0.24,1.42,no change
+Trundle,TOP,49.76,0.24,0.51,no change
+Tryndamere,MID,51.51,3.73,0.55,no change
+Tryndamere,TOP,47.36,3.73,3.33,no change
+Tryndamere,JUNGLE,46.29,3.73,0.49,no change
+Twisted Fate,MID,46.7,0.41,3.92,no change
+Twitch,ADC,50.65,2.37,4.77,no change
+Udyr,JUNGLE,50.75,18.86,6.46,no change
+Urgot,TOP,52.71,8.55,7.23,no change
+Varus,ADC,49.93,0.49,4.39,no change
+Vayne,ADC,50.56,14.26,12.27,no change
+Vayne,TOP,47.85,14.26,2.34,no change
+Veigar,MID,51.41,2.09,5.03,no change
+Veigar,SUPPORT,50.49,2.09,1.38,no change
+Vel'Koz,MID,51.37,1.02,1.98,no change
+Vel'Koz,SUPPORT,50.73,1.02,2.44,no change
+Vi,JUNGLE,51.46,0.75,4.14,no change
+Viego,JUNGLE,49.59,21.74,7.59,no change
+Viego,MID,50.28,21.74,2.22,no change
+Viego,TOP,48.06,21.74,1.66,no change
+Viktor,MID,50.94,0.66,3.27,no change
+Vladimir,MID,49.9,2.65,2.86,buff
+Vladimir,TOP,48.56,2.65,1.2,buff
+Volibear,JUNGLE,53.14,5.59,5.62,no change
+Volibear,TOP,50.6,5.59,5.0,no change
+Warwick,JUNGLE,51.8,3.43,7.27,no change
+Wukong,TOP,51.82,1.69,3.7,no change
+Wukong,JUNGLE,50.15,1.69,0.88,no change
+Xayah,ADC,47.37,0.6,4.59,no change
+Xerath,MID,51.08,2.15,1.94,no change
+Xerath,SUPPORT,50.54,2.15,2.88,no change
+Xin Zhao,JUNGLE,51.02,2.88,6.86,no change
+Yasuo,MID,51.14,28.27,12.99,no change
+Yasuo,TOP,50.82,28.27,3.13,no change
+Yone,MID,50.98,28.62,11.06,no change
+Yone,TOP,50.12,28.62,2.96,no change
+Yorick,TOP,54.7,10.25,7.91,tweak
+Yuumi,SUPPORT,50.81,7.47,7.5,no change
+Zac,JUNGLE,50.74,0.61,2.35,buff
+Zed,MID,48.98,42.51,11.02,buff
+Ziggs,MID,50.96,0.18,1.32,no change
+Ziggs,ADC,52.17,0.18,0.24,no change
+Ziggs,SUPPORT,49.01,0.18,0.28,no change
+Zilean,MID,51.71,0.56,0.42,no change
+Zilean,SUPPORT,51.57,0.56,2.36,no change
+Zoe,MID,45.34,1.41,2.62,no change
+Zyra,SUPPORT,51.16,1.92,3.99,no change
