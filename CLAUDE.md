@@ -10,48 +10,59 @@ This is a data science project analyzing League of Legends champion balance chan
 
 ## Repository Structure
 
+The project follows standard data science best practices with clear separation between raw data, processed data, analysis notebooks, and outputs.
+
 ```
 buff_project/
-├── champs.csv                              # Master list of all League champions
-├── README.md                               # Project documentation (currently empty)
+├── data/                                    # All data files
+│   ├── raw/                                 # Immutable original data (never modify)
+│   │   ├── season_11/                       # Season 11 raw data by patch
+│   │   │   ├── Challenger/                  # 11.1-11.17 challenger tier CSVs
+│   │   │   ├── irontogold/                  # 11.1-11.19 low rank CSVs
+│   │   │   ├── plattogm/                    # Platinum to Grandmaster CSVs
+│   │   │   ├── changes/                     # 11.1-11.19 patch change CSVs
+│   │   │   ├── latestpatch/                 # Most recent patch data
+│   │   │   └── combined/                    # Alternative combined datasets
+│   │   └── historic/                        # Legacy data (Patches 8.24, 9.24, 10.25)
+│   │       ├── [patch]challenger.csv
+│   │       ├── [patch]changes.csv
+│   │       └── [patch][rank-range].csv
+│   ├── processed/                           # Cleaned and merged datasets
+│   │   ├── S11combined.csv                  # Combined Season 11 (all ranks)
+│   │   ├── S11challenger.csv                # Challenger tier only
+│   │   ├── S11irontogm.csv                  # Iron to Grandmaster
+│   │   ├── S11buffandnerf.csv               # Labeled dataset for ML training
+│   │   ├── 11.18combined.csv                # Patch 11.18 specific combined
+│   │   └── allrankseason11.csv              # All ranks aggregated
+│   └── reference/                           # Reference and lookup files
+│       └── champs.csv                       # Master list of all League champions
 │
-├── Jupyter Notebooks (Data Pipeline)
-├── champ_historic_data_webscraping.ipynb   # Web scraper for champion statistics
-├── patch_history_webscraping.ipynb         # Web scraper for patch change data
-├── data_cleaning.ipynb                     # Data merging and preprocessing
-├── decision_tree_modeling.ipynb            # Primary model (82.6% accuracy)
-├── SVM model.ipynb                         # Alternative SVM classifier
-├── Untitled.ipynb                          # Experimental/scratch notebook
+├── notebooks/                               # Jupyter notebooks organized by pipeline stage
+│   ├── 01_data_collection/                  # Web scraping and data acquisition
+│   │   ├── champ_historic_data_webscraping.ipynb
+│   │   └── patch_history_webscraping.ipynb
+│   ├── 02_data_cleaning/                    # Data preprocessing and merging
+│   │   └── data_cleaning.ipynb
+│   └── 03_modeling/                         # Model training and evaluation
+│       ├── decision_tree_modeling.ipynb     # Primary model (82.6% accuracy)
+│       ├── SVM model.ipynb                  # Alternative SVM classifier
+│       └── Untitled.ipynb                   # Experimental/scratch notebook
 │
-├── Processed Data (Root Level)
-├── S11combined.csv                         # Combined Season 11 dataset (all ranks)
-├── S11challenger.csv                       # Challenger tier data
-├── S11irontogm.csv                         # Iron to Grandmaster data
-├── S11buffandnerf.csv                      # Labeled buff/nerf dataset for training
-├── 11.18combined.csv                       # Patch 11.18 specific combined data
-├── allrankseason11.csv                     # All ranks aggregated
-├── bufftree.png                            # Decision tree visualization
+├── models/                                  # Trained models and model artifacts
 │
-├── Season_11_data/                         # Raw data organized by patch
-│   ├── Challenger/                         # 11.1-11.17 challenger tier CSVs
-│   ├── irontogold/                         # 11.1-11.19 low rank CSVs
-│   ├── plattogm/                           # Platinum to Grandmaster CSVs
-│   ├── changes/                            # 11.1-11.19 patch change CSVs
-│   └── latestpatch/                        # Most recent patch data
+├── reports/                                 # Generated analysis and documentation
+│   └── figures/                             # Visualizations and plots
+│       └── bufftree.png                     # Decision tree visualization (971KB)
 │
-├── Historic Data/                          # Legacy data (Patches 8.24, 9.24, 10.25)
-│   ├── [patch]challenger.csv
-│   ├── [patch]changes.csv
-│   └── [patch][rank-range].csv
-│
-└── season11combined/                       # Alternative combined dataset location
+├── README.md                                # Project documentation
+└── CLAUDE.md                                # AI assistant guide (this file)
 ```
 
 ## Data Pipeline & Workflow
 
 ### 1. Data Collection (Web Scraping)
 
-**File**: `champ_historic_data_webscraping.ipynb`
+**File**: `notebooks/01_data_collection/champ_historic_data_webscraping.ipynb`
 
 - **Source**: metasrc.com
 - **Function**: `getdataframe(patch)` - Scrapes champion statistics for a given patch
@@ -63,7 +74,7 @@ buff_project/
 - **Output Format**: Separate CSVs for each rank tier and patch
 - **Note**: Champion names are duplicated in HTML and need to be split (uses `champ[len(champ)/2:]`)
 
-**File**: `patch_history_webscraping.ipynb`
+**File**: `notebooks/01_data_collection/patch_history_webscraping.ipynb`
 
 - **Source**: pcgamesn.com
 - **Function**: `getchanges(patch)` - Identifies buffs/nerfs from patch notes
@@ -72,11 +83,11 @@ buff_project/
   - `nerf` - Champion received nerfs
   - `tweak` - Champion changed but not explicitly buffed/nerfed
   - `no change` - Champion unchanged
-- **Uses**: `champs.csv` as reference list to check against patch notes
+- **Uses**: `data/reference/champs.csv` as reference list to check against patch notes
 
 ### 2. Data Cleaning & Merging
 
-**File**: `data_cleaning.ipynb`
+**File**: `notebooks/02_data_cleaning/data_cleaning.ipynb`
 
 - **Function**: `dataclean(patch)` - Merges champion stats with patch change data
 - **Process**:
@@ -89,7 +100,7 @@ buff_project/
 
 ### 3. Model Training
 
-**File**: `decision_tree_modeling.ipynb` (Primary Model)
+**File**: `notebooks/03_modeling/decision_tree_modeling.ipynb` (Primary Model)
 
 - **Algorithm**: Decision Tree Classifier (sklearn)
 - **Features**:
@@ -101,9 +112,9 @@ buff_project/
   - `max_depth=8` - Prevents overfitting
 - **Performance**: 82.6% accuracy on test set
 - **Train/Test Split**: 70/30, random_state=3
-- **Visualization**: Exports decision tree to `bufftree.png`
+- **Visualization**: Exports decision tree to `reports/figures/bufftree.png`
 
-**File**: `SVM model.ipynb` (Alternative Model)
+**File**: `notebooks/03_modeling/SVM model.ipynb` (Alternative Model)
 
 - **Algorithm**: Support Vector Machine with RBF kernel
 - **Features**: `winrate`, `rank`, `banrate`, `pickrate` (more comprehensive)
@@ -188,15 +199,15 @@ From `SVM model.ipynb` analysis (cell 12 markdown):
 
 ```python
 # 1. Scrape champion data for a patch
-exec(open('champ_historic_data_webscraping.ipynb').read())
+exec(open('notebooks/01_data_collection/champ_historic_data_webscraping.ipynb').read())
 getdataframe('11.19')  # Creates irontogold, plattogm, challenger CSVs
 
 # 2. Scrape patch changes
-exec(open('patch_history_webscraping.ipynb').read())
+exec(open('notebooks/01_data_collection/patch_history_webscraping.ipynb').read())
 getchanges('1119')  # Creates changes CSV
 
 # 3. Clean and merge data
-exec(open('data_cleaning.ipynb').read())
+exec(open('notebooks/02_data_cleaning/data_cleaning.ipynb').read())
 dataclean(19)  # Merges stats with changes from patch 20
 ```
 
@@ -215,7 +226,7 @@ from SVM_model import *
 
 ### Adding New Champion Data
 
-1. Add champion name to `champs.csv` (one name per line)
+1. Add champion name to `data/reference/champs.csv` (one name per line)
 2. Re-run web scraping functions to collect stats
 3. Re-run data cleaning to generate merged datasets
 4. Retrain models with updated data
@@ -223,7 +234,7 @@ from SVM_model import *
 ### Updating to New Season
 
 1. Update URL patterns in scraping notebooks (change season number)
-2. Create new directory: `Season_[N]_data/`
+2. Create new directory: `data/raw/season_[N]/`
 3. Update file paths in cleaning notebooks
 4. Verify champion list is current (new champions released)
 
@@ -235,7 +246,7 @@ from SVM_model import *
 4. **Rate Limits**: Be respectful of web scraping sources; add delays between requests
 5. **Data Freshness**: Project focuses on Season 11 (2021); League of Legends is actively updated
 6. **Checkpoint Files**: `.ipynb_checkpoints/` contains auto-saved notebook versions
-7. **Image Files**: `bufftree.png` is a large (971KB) decision tree visualization
+7. **Image Files**: `reports/figures/bufftree.png` is a large (971KB) decision tree visualization
 
 ## Git Workflow
 
@@ -264,12 +275,12 @@ Based on analysis in the notebooks, consider:
 
 ## Quick Reference: File Locations
 
-- **Master champion list**: `champs.csv`
-- **Latest combined dataset**: `S11combined.csv`
-- **Primary model notebook**: `decision_tree_modeling.ipynb`
-- **Raw Season 11 data**: `Season_11_data/`
-- **Model visualization**: `bufftree.png`
-- **Training data for SVM**: `S11buffandnerf.csv`
+- **Master champion list**: `data/reference/champs.csv`
+- **Latest combined dataset**: `data/processed/S11combined.csv`
+- **Primary model notebook**: `notebooks/03_modeling/decision_tree_modeling.ipynb`
+- **Raw Season 11 data**: `data/raw/season_11/`
+- **Model visualization**: `reports/figures/bufftree.png`
+- **Training data for SVM**: `data/processed/S11buffandnerf.csv`
 
 ---
 
