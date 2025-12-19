@@ -53,7 +53,7 @@ buff_project/
 │       └── bufftree.png                     # Decision tree visualization (971KB)
 │
 ├── README.md                                # Project documentation
-└── CLAUDE.md                                # AI assistant guide (this file)
+
 ```
 
 ## Data Pipeline & Workflow
